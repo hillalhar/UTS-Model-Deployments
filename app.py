@@ -4,8 +4,8 @@ import joblib
 import numpy as np
 
 st.set_page_config(page_title="Placement & Salary projection", layout="centered")
-classifier = joblib.load("classifier_pipeline.pkl")
-regressor = joblib.load("regressor_pipeline.pkl")
+classifier = joblib.load("artifacts/classifier_pipeline.pkl")
+regressor = joblib.load("artifacts/regressor_pipeline.pkl")
 
 st.title("Student Career & Salary Projection")
 
